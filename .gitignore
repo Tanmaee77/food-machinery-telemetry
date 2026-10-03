@@ -1,4 +1,19 @@
+# Virtual environment
 venv/
+.venv/
+
+# Python cache
 __pycache__/
 *.pyc
-data/telemetry.db-journal
+
+# Local database (generated at runtime)
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
