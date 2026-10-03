@@ -80,3 +80,7 @@ python dashboard.py
 python command_dispatcher.py
 python cloud_forwarder.py
 ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
