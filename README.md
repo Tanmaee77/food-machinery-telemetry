@@ -52,7 +52,13 @@ food-machinery-telemetry/
 ├── README.md
 └── requirements.txt
 ```
+## Prerequisites
 
+- **Python 3.9+**
+- **Internet connection.** By default the project connects to the public test broker `test.mosquitto.org` on port `1883` (configured in `config.py`), so no local MQTT broker installation is needed.
+- **Python packages** listed in `requirements.txt` (installed in the setup step below)
+
+> **Note:** `test.mosquitto.org` is a shared public broker intended for testing. Anyone can read or publish to it, so don't send sensitive data. To use your own broker (for example a local Mosquitto), change `BROKER_HOST` and `BROKER_PORT` in `config.py`.
 ## Getting Started
 
 ### 1. Environment Setup
